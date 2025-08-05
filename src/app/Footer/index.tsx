@@ -18,7 +18,7 @@ const Footer = () => {
               </h3>
               <p className="flex items-center mb-2 text-sm md:text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[18px]">
                 <span className="mr-2 min-w-[20px]" aria-hidden="true"><MdMail size={20} /></span>
-                inganj@akirachix.com
+                fanikisha@akirachix.com
               </p>
               <p className="flex items-center mb-2 text-sm md:text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[18px]">
                 <span className="mr-2 min-w-[20px]" aria-hidden="true"><MdPhone size={20} /></span>
@@ -35,9 +35,6 @@ const Footer = () => {
          <p className="mb-2 text-sm md:text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[18px]">
          <Link href="#product" className="hover:underline">Product</Link>
       </p>
-       <p className="text-sm md:text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[18px]">
-                 <Link href="#team" className="hover:underline">Team</Link>
-    </p>
             </div>
             <div>
               <h3 className="font-bold text-lg md:text-[20px] lg:text-[20px] xl:text-[20px] 2xl:text-[25px] mb-3">Location</h3>
@@ -50,7 +47,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-gray-200 py-3 px-4 text-center text-xs text-gray-600">
-        <p>&copy; Inganji@AkiraChix 2024</p>
+        <p>&copy; Fanikisha@AkiraChix 2025</p>
       </div>
     </footer>
   );

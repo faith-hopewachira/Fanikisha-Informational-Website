@@ -24,7 +24,7 @@ const Navbar = () => {
             <Link href="#homepage" className="py-4 text-black hover:text-blue-500">Home</Link>
             <Link href="#aboutus" className="py-4 text-black hover:text-blue-500">About Us</Link>
             <Link href="#product" className="py-4 text-black hover:text-blue-500">Product</Link>
-            <Link href="#team" className="py-4 text-black hover:text-blue-500">Team</Link>
+            {/* <Link href="#team" className="py-4 text-black hover:text-blue-500">Team</Link> */}
             <Link href="#contact" className="py-4 text-black hover:text-blue-500">Contact Us</Link>
           </div>
 
@@ -46,7 +46,6 @@ const Navbar = () => {
           <Link href="#homepage" className="py-4 text-xl text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>Home</Link>
           <Link href="#aboutus" className="py-4 text-xl text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>About Us</Link>
           <Link href="#product" className="py-4 text-xl text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>Product</Link>
-          <Link href="#team" className="py-4 text-xl text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>Team</Link>
           <Link href="#contact" className="py-4 text-xl text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>Contact Us</Link>
         </div>
       </div>

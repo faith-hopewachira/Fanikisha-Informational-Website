@@ -3,7 +3,7 @@ export default function Product() {
   return (
     <main id="product" className="px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12">
       <div className="flex flex-col items-center mt-6">
-      <h1 className="text-customBlue text-4xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-center font-work-sans font-bold mt-0 md:mt-6 ">
+      <h1 className="text-customBlue text-4xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-center font-work-sans font-bold mt-10">
           Product
         </h1>
         <div className="w-full max-w-[1500px] text-center font-work-sans-light font-light text-[22px] sm:text-[12px] md:text-xl lg:text-2xl xl:text-3xl flex items-center mt-5">
